@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../public/rpa-concept-with-blurry-hand-touching-screen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+  .container {
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px 8px black;
+    color: white;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .info label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .logo{
+    align-self: center;
+  }
+
+  .logo>img{
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .form-control {
+    width: 300px;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  form[action="/submit"][method="post"] {
+    
+    padding: 10px;
+  }
+
+  .attendee {
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .attendee label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .submit {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .cancel {
+    background-color: #ccc;
+    color: black;
+    margin-left: 10px;
+  }
