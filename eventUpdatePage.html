@@ -16,31 +16,34 @@
             <div class="logo">
                 <img src="./public/guvi logo.jpeg" alt="Logo" srcset="">
             </div>
-            <form action="/submit" method="post"> <div class="attendee">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+            <div class="userInfo">
+                <form action="/submit" method="post"> 
+                    <div class="attendee">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="attendee">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="attendee">
+                        <label for="phone">Phone No.:</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="attendee">
+                        <label for="seats">Number of seats:</label>
+                        <input type="number" class="form-control" id="seats" name="seats" min="1" max="23" required>
+                    </div>
+                    <div class="attendee">
+                        <label for="name2">Name of Attendee 2:</label>
+                        <input type="text" class="form-control" id="name2" name="name2">
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="submit">Submit</button>
+                        <button type="button" class="cancel">Cancel</button>
+                    </div>
+                </form>
             </div>
-            <div class="attendee">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="attendee">
-                <label for="phone">Phone No.:</label>
-                <input type="tel" class="form-control" id="phone" name="phone" required>
-            </div>
-            <div class="attendee">
-                <label for="seats">Number of seats:</label>
-                <input type="number" class="form-control" id="seats" name="seats" min="1" max="23" required>
-            </div>
-            <div class="attendee">
-                <label for="name2">Name of Attendee 2:</label>
-                <input type="text" class="form-control" id="name2" name="name2">
-            </div>
-            <div class="buttons">
-                <button type="submit" class="submit">Submit</button>
-                <button type="button" class="cancel">Cancel</button>
-            </div>
-            </form>
         </div>
     </div>
 </body>
